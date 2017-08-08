@@ -1,0 +1,24 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> codeigniter sample with php built in image
+   font-size: small;
+}
+
+.box-title {
+    background: white none repeat scroll 0 0;
+    display: inline-block;
+    padding: 0 2px;
+    margin-left: 8em;
+<<<<<<< HEAD
+}
+=======
+}
+>>>>>>> php starter site for azure web app on linux
+=======
+}
+>>>>>>> codeigniter sample with php built in image

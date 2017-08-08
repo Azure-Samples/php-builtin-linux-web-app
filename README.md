@@ -1,3 +1,6 @@
+# PHP sample for Web App on Linux using CodeIgniter
+
+This is a PHP web app built with [CodeIgniter](http://www.codeigniter.com/) that you can deploy to  Azure Web App on Linux. 
 
 # Contributing
 
