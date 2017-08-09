@@ -25,6 +25,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 <div class="jumbotron">
  <div class="container">
+<!--Add Video "-->
+<!--<div  style="float: right">
+    <iframe width="350px" height ="200px" class="embed-responsive-item" src="https://www.youtube.com/embed/ma6-56SC-20"></iframe>
+</div>  -->
+   
   <h2 class="display-3">Build deploy and scale applications faster</h2>   
   <p class="lead">
     <a class="btn btn-primary btn-lg" href="https://docs.microsoft.com/azure/app-service-web" role="button">Learn more</a>
@@ -50,7 +55,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                           <li><a href="https://docs.microsoft.com/en-us/azure/app-service-web/app-service-linux-choosing-deployment-type">Custom container or built-in application stack?</a></li>                            
                         </ul>     
                     </div>
-                    <p class="caption" style="padding: 5px">
+                    <p class="caption" style="padding:5px">
                             <a href="https://azure.microsoft.com/try/app-service/" class="btn btn-primary">Try for Free!</a> 
                     </p>
                 </div>
@@ -70,7 +75,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                         <li><a href="https://docs.microsoft.com/en-us/azure/app-service-web/app-service-linux-ssh-support">Enable SSH for custom image</a></li>
                         </ul>                                             
                     </div>
-                        <p class="caption" style="padding: 11px">
+                        <p class="caption" style="padding:11px">
                             <a href="https://azure.microsoft.com/overview/webinars/" class="btn btn-primary">WebCast</a>
                         </p>
                     </div>
@@ -91,7 +96,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                           <li><a href="https://docs.microsoft.com/azure/app-service-web/app-service-linux-ruby-get-started">Create a Ruby App</a></li>                          
                         </ul>                                              
                     </div>
-                    <p class="caption" style="padding: 5px">
+                    <p class="caption" style="padding:5px">
                             <a href="https://docs.microsoft.com/azure/app-service-web/" class="btn btn-primary">Tutorial</a> 
                     </p>
                 </div>
@@ -113,7 +118,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                         </ul>
                         <br/>                        
                     </div>
-                    <p class="caption" style="padding: 5px">
+                    <p class="caption" style="padding:5px">
                             <a href="https://feedback.azure.com/forums/169385-web-apps" class="btn btn-primary">UserVoice</a>
                     </p>
                 </div>
