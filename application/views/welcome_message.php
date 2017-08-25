@@ -23,7 +23,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
       </div>
     </nav> 
 
-<div class="jumbotron" style="background-image: url('../../pictures/STB13_Ken_06.png');">
+<div class="jumbotron">
  <div class="container">
 <!--Add Video "-->
 <!--<div  style="float: right">
