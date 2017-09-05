@@ -13,6 +13,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
   <script src="<?php echo base_url();?>/js/bootstrap.min.js"></script>  
   <link rel="stylesheet" type="text/css" href="<?php echo base_url();?>/css/jumbotron.css">
 </head>
+<link href="http://amp.azure.net/libs/amp/2.1.2/skins/amp-default/azuremediaplayer.min.css" rel="stylesheet">
+<script src="http://amp.azure.net/libs/amp/2.1.2/azuremediaplayer.min.js"></script>
 <body> 
 <nav class="navbar navbar-inverse navbar-fixed-top">
       <div class="container">
@@ -30,13 +32,17 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 </div>  -->
    
   <h2 class="display-3">Build, deploy and scale applications faster</h2>   
-  </div>
 <p class="lead">
     <a class="btn btn-primary btn-lg" href="https://docs.microsoft.com/azure/app-service-web" role="button">Learn more</a>
   </p>     
 </div>
 </div>
-<div class="container">
+<div class="container text-center">
+  <video id="vid1" class="azuremediaplayer amp-default-skin" controls="" autoplay="" name="media" width="640" height="400">
+    <source src="http://amssamples.streaming.mediaservices.windows.net/2e91931e-0d29-482b-a42b-9aadc93eb825/AzurePromo.mp4" type="video/mp4">
+    <p class="amp-no-js">To view this video please enable JavaScript, and consider upgrading to a web browser that supports HTML5 video</p>
+  </video>
+</div><div class="container">
     <h1 class="text-center v-center" style="padding-bottom:20px">Get started with App Service on Linux</h1>
 </div>
 <div class="container">
