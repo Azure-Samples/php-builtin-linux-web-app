@@ -31,7 +31,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
    
   <h2 class="display-3">Build, deploy and scale applications faster</h2>   
   </div>
-  </div> 
 <p class="lead">
     <a class="btn btn-primary btn-lg" href="https://docs.microsoft.com/azure/app-service-web" role="button">Learn more</a>
   </p>     
