@@ -13,8 +13,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
   <script src="<?php echo base_url();?>/js/bootstrap.min.js"></script>  
   <link rel="stylesheet" type="text/css" href="<?php echo base_url();?>/css/jumbotron.css">
 </head>
-
- <nav class="navbar navbar-inverse navbar-fixed-top">
+<body> 
+<nav class="navbar navbar-inverse navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">         
           <a class="navbar-brand" href="#">Azure App Service</a>		 
@@ -30,7 +30,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 </div>  -->
    
   <h2 class="display-3">Build, deploy and scale applications faster</h2>   
-  <p class="lead">
+  </div>
+  </div> 
+<p class="lead">
     <a class="btn btn-primary btn-lg" href="https://docs.microsoft.com/azure/app-service-web" role="button">Learn more</a>
   </p>     
 </div>
