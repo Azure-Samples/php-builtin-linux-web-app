@@ -64,7 +64,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     </div>
                     <div style="text-align:left">
                         <ul >
-                          <li><a href="https://docs.microsoft.com/azure/app-service-web/app-service-linux-intro">What is Web App on Linux</a></li>
+                          <li><a href="https://docs.microsoft.com/azure/app-service-web/app-service-linux-intro">What is App Service on Linux</a></li>
                           <li><a href="https://azure.microsoft.com/pricing/details/app-service/">Pricing</a></li>
                           <li><a href="https://docs.microsoft.com/azure/app-service-web">Documentation</a></li>
                           <li><a href="https://docs.microsoft.com/en-us/azure/app-service-web/app-service-linux-choosing-deployment-type">Custom container or built-in application stack?</a></li>                            
