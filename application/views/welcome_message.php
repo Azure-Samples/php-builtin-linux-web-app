@@ -13,8 +13,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
   <script src="<?php echo base_url();?>/js/bootstrap.min.js"></script>  
   <link rel="stylesheet" type="text/css" href="<?php echo base_url();?>/css/jumbotron.css">
 </head>
-<link href="https://amp.azure.net/libs/amp/1.7.4/skins/amp-default/azuremediaplayer.min.css" rel="stylesheet">
-<script src="https://amp.azure.net/libs/amp/1.7.4/azuremediaplayer.min.js"></script>
 
 <body> 
 <nav class="navbar navbar-inverse navbar-fixed-top">
@@ -38,20 +36,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
   </p>     
 </div>
 </div>
-<div class="container">
-    <div class="ams-video-wrapper">
-        <video width="100%" height="100%" class="azuremediaplayer amp-default-skin amp-big-play-centered" controls poster="//azurecomcdn.azureedge.net/mediahandler/files/videofiles/thumbnails/web-app-for-containers-overview/Azure_WebAppForContainers_thumb_1440x810.jpg" data-setup="{&quot;language&quot;:&quot;en&quot;,&quot;plugins&quot;:{&quot;analytics&quot;:{&quot;videoId&quot;:&quot;web-app-for-containers-overview&quot;,&quot;autoplay&quot;:false,&quot;name&quot;:&quot;Web App for Containers overview&quot;,&quot;eventsToTrack&quot;:[&quot;playTime&quot;,&quot;start&quot;,&quot;end&quot;,&quot;play&quot;,&quot;pause&quot;,&quot;error&quot;,&quot;seek&quot;,&quot;buffering&quot;,&quot;percentsPlayed&quot;]}}}">
-            <source src="https://onyxmediacdn-onyxmedia.streaming.mediaservices.windows.net/a9b1b128-d5d3-45a1-a1b8-6c39aa4e8bf2/web-app-for-containers-overview.ism/manifest" type="application/vnd.ms-sstr+xml" />
-            <track kind="subtitles" src="https://onyxmediacdn-onyxmedia.streaming.mediaservices.windows.net/a9b1b128-d5d3-45a1-a1b8-6c39aa4e8bf2/web-app-for-containers-overview_en-us.vtt" srclang="en" label="English (US)">
-            <p class="amp-no-js">To view this video please enable JavaScript, and consider upgrading to a web browser that supports HTML5 video.</p>
-        </video>
-    </div>
-    <p></p>
-</div>
-<style>
-    .ams-video-wrapper { width: 100%; padding-bottom: 56.25%; position: relative; background: #000 }
-    .ams-video-wrapper>.azuremediaplayer { position: absolute; top: 0; bottom: 0; left: 0; right: 0 }
-</style>
+
 <div class="container">
     <h1 class="text-center v-center" style="padding-bottom:20px">Get started with App Service on Linux</h1>
 </div>
