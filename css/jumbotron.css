@@ -5,14 +5,21 @@
   display: -webkit-flex;
   display: flex;
 }
-.flex .thumbnail {
+.flex .card {
   height: 100%;
   display: flex;
   flex-direction: column;
+  font-size: 14px;
 }
-.flex .caption:last-child {
+.flex .card img {
+  margin: 15px auto;
+}
+.flex .card-link:last-child {
   margin-top: auto;
   padding: 9px !important; /* overwrite inline style injected by JS */
+}
+.card .card-title {
+  font-size: 18px !important;
 }
 .no-flexbox .hero-feature {
   display: -webkit-box;
@@ -21,11 +28,11 @@
   display: -webkit-flex;
   display: flex;
 }
-.no-flexbox .flex .thumbnail {
+.no-flexbox .flex .card {
   height: auto !important;
   padding-bottom: 50px;
 }
-.no-flexbox .flex .caption:last-child {
+.no-flexbox .flex .card-link:last-child {
   position: absolute;
   bottom: 20px;
   width: 80%;
@@ -33,7 +40,6 @@
 
 /* Move down content because we have a fixed navbar that is 50px tall */
 body {
-  padding-top: 50px;
   padding-bottom: 20px;
 <<<<<<< HEAD
 <<<<<<< HEAD
